@@ -7,10 +7,10 @@ const char* ssid = "NOMBRE_DE_LA_RED";
 const char* password = "CONTRASEÑA_DE_LA_RED";
 
 // 3. Ingresar las credenciales del servidor
-const char* mqtt_server = "graycloud.gq";
+const char* mqtt_server = "NOMBRE_DEL_HOST";
 const int mqtt_port = 1883;
-const char* mqtt_user = "uteq";
-const char* mqtt_pass = "uteq";
+const char* mqtt_user = "USUARIO_MQTT";
+const char* mqtt_pass = "CONTRASEÑA_MQTT";
 
 // 4. Ingrese el tópico (Código de equipo 4 dígitos) con la data1
 // Ejemplo: T205/data1
