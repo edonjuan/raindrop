@@ -6,7 +6,7 @@ print ("Start")
 INTERVAL = 10
 next_reading = time.time()
 client = mqtt.Client()
-client.username_pw_set(username="uteq",password="uteq")
+client.username_pw_set(username="MQTT_USER",password="MQTT_PASS")
 
 client.connect("graycloud.gq",1883)
 
@@ -20,7 +20,7 @@ try:
 
     if(light != light_x):
       light_x = light
-      client.publish("CG/data1",light)
+      client.publish("PY/data1",light)
       print ("MQTT Sended")
       
 

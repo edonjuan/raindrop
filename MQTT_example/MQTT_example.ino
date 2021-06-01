@@ -15,7 +15,7 @@ const char* mqtt_pass = "CONTRASEÑA_MQTT";
 // 4. Ingrese el tópico (Código de equipo 4 dígitos) con la data1
 // Ejemplo: T205/data1
 
-const char* topic = "T308/data1";
+const char* topic = "AR/data1";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
